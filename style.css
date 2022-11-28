@@ -42,3 +42,95 @@
   font-weight:bold;
   cursor:pointer;
 }
+
+.container ul li:first-child{
+  color:green;
+}
+
+.container ul li:hover{
+  color:rgb(41, 182, 41);
+}
+
+.container .btn{
+  width: 200px;
+  height:50px;
+  border-radius:10px;
+  font-size:18px;
+  border:none;
+  color:black;
+  background-color: green;
+  transition:0.5s;
+}
+
+.container .btn:hover{
+  background-color:rgb(184, 202, 184);
+  color:rgb(124, 161, 124);
+}
+
+.content{
+  width:1200px;
+  height:100vh;
+  margin:auto;
+}
+
+.content h1{
+  font-family:arial;
+  font-weight:bold;
+  color:white;
+  font-size:50px;
+}
+
+.content p{
+  font-family:arial;
+  font-weight:bold;
+  color:white;
+  line-height:30px;
+  padding-top:30px;
+}
+
+.content .btn{
+  width: 200px;
+  height:50px;
+  border-radius:10px;
+  font-size:18px;
+  border: 2px solid #fff;
+  color:black;
+  background-color: transparent;
+  color:#fff;
+  transition:0.5s;
+}
+
+.content .btn:hover{
+  background-color:#fff;
+  color:#30d300;
+}
+
+.nice h1{
+  color:black;
+  font-size:xx-large;
+  margin-top:5%;
+  margin-left:400px;
+  font-style: italic;
+}
+
+.nice h3{
+  font-size:large;
+  margin-top:120px;
+  font-style: italic;
+}
+
+.pet img{
+  border-radius: 10%;
+  margin-left:650px;
+  margin-top:-17%;
+}
+
+#button{
+  width:200px;
+  height:50px;
+  background-color:rgb(40, 40, 226);
+  border-radius: 20px;
+  border-color: rgb(57, 57, 231);
+  margin-top:2%;
+  margin-left:140px;
+}
