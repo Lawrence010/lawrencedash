@@ -20,3 +20,25 @@
   align-items:center;
   padding:0px 25px;
 }
+
+.container h2{
+  font-family:arial;
+  font-size:30px;
+  color:white;
+  cursor:pointer;
+}
+
+.container ul{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.container ul li{
+  color:white;
+  font-family:arial;
+  list-style:none;
+  margin-right:50px;
+  font-weight:bold;
+  cursor:pointer;
+}
